@@ -18,8 +18,7 @@
     "fix:lint": "eslint src --ext .ts,.tsx --fix",
     "test": "run-s build test:*",
     "test:lint": "eslint src --ext .ts,.tsx",
-    "test:prettier": "prettier \"src/**/*.ts\" --list-different",
-    "test:spelling": "cspell \"{README.md,.github/*.md,src/**/*.ts}\""
+    "test:prettier": "prettier \"src/**/*.ts\" --list-different"
   },
   "dependencies": {
     "@emotion/react": "11.9.0",
